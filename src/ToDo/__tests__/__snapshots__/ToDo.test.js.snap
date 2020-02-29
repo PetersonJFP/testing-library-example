@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDo renders correctly: before make changes 1`] = `
+<DocumentFragment>
+  <div
+    class="todo-container"
+  >
+    <form>
+      <input
+        data-testid="new-task"
+        type="text"
+        value=""
+      />
+      <button
+        data-testid="add-task"
+        disabled=""
+        type="submit"
+      >
+        Add Task
+      </button>
+    </form>
+    <ul />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ToDo renders correctly: with 3 todos (foo, bar, foobar) 1`] = `
+<DocumentFragment>
+  <div
+    class="todo-container"
+  >
+    <form>
+      <input
+        data-testid="new-task"
+        type="text"
+        value=""
+      />
+      <button
+        data-testid="add-task"
+        disabled=""
+        type="submit"
+      >
+        Add Task
+      </button>
+    </form>
+    <ul>
+      <li>
+        foo 
+        <button
+          data-testid="remove-task-foo"
+        >
+          X
+        </button>
+      </li>
+      <li>
+        bar 
+        <button
+          data-testid="remove-task-bar"
+        >
+          X
+        </button>
+      </li>
+      <li>
+        foobar 
+        <button
+          data-testid="remove-task-foobar"
+        >
+          X
+        </button>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
